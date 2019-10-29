@@ -115,8 +115,7 @@
       <br />
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1572329256028" ID="ID_1386337492" MODIFIED="1572329799188" TEXT="example">
 <node CREATED="1572329799888" LINK="https://github.com/lanwav/cubes/tree/master/examples/quickstart" MODIFIED="1572329799888" TEXT="https://github.com/lanwav/cubes/tree/master/examples/quickstart"/>
 </node>
@@ -127,7 +126,7 @@
 <node CREATED="1572329477877" ID="ID_1127797872" MODIFIED="1572329480089" POSITION="right" TEXT="document">
 <node CREATED="1572329498807" LINK="https://cubes.readthedocs.io/en/v1.1/index.html" MODIFIED="1572329498807" TEXT="https://cubes.readthedocs.io/en/v1.1/index.html"/>
 </node>
-<node CREATED="1572329461388" ID="ID_1233842615" MODIFIED="1572329812094" POSITION="left" TEXT="install cubes">
+<node CREATED="1572329461388" ID="ID_1233842615" MODIFIED="1572342138141" POSITION="left" TEXT="install cubes">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -162,9 +161,6 @@
     </p>
     <p>
       pip install cubes
-    </p>
-    <p>
-      
     </p>
   </body>
 </html>

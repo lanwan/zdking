@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><!--This file has been created with freemind2html.xsl--><head><title>cubes</title><link rel="stylesheet" href="cubes.html_files/freemind2html.css" type="text/css" /><meta content="FreeMind-XSL Stylesheet (see: http://freemind-xsl.dev.slash-me.net/ for details)" name="generator" /><script type="text/javascript" src="cubes.html_files/freemind2html.js">  
+	</script><script type="text/javascript"><!--
+          
+               function toggle(id)
+               {
+                   div_el = document.getElementById(id);
+                   img_el = document.getElementById('img'+id);
+                   if (div_el.style.display != 'none')
+                   {
+          
+					
+                      div_el.style.display='none';
+                      img_el.src = 'cubes.html_files/show.png';
+          
+                   }
+                   else
+                   {
+          
+                      div_el.style.display='block';
+                      img_el.src = 'cubes.html_files/hide.png';
+          
+                   };
+               };
+          
+          --></script></head><body><h1>cubes</h1><div style="width:96%;  padding:2%;  margin-bottom:10px;  border: 0px;  text-align:center;  vertical-align:center;"><img src="cubes.html_files/image.png" style="margin-bottom:10px; &#9;border: 0px; &#9;text-align:center; &#9;vertical-align:center;" alt="Imagemap" usemap="#fm_imagemap" /></div><map id="fm_imagemap" name="fm_imagemap"><area shape="rect" href="#FMID_808448899FM" alt="cubes" title="cubes" coords="122,22,172,66" /><area shape="rect" href="#FMID_649753054FM" alt="quick start" title="quick start" coords="192,4,280,26" /><area shape="rect" href="#FMID_1386337492FM" alt="example" title="example" coords="300,2,359,24" /><area shape="rect" href="#FMID_247462211FM" alt="https://github.com/lanwav/cubes/tree/mas ..." title="https://github.com/lanwav/cubes/tree/mas ..." coords="379,0,761,22" /><area shape="rect" href="#FMID_1044692376FM" alt="souce code" title="souce code" coords="192,31,268,53" /><area shape="rect" href="#FMID_352062722FM" alt="https://github.com/lanwav/cubes" title="https://github.com/lanwav/cubes" coords="288,29,491,51" /><area shape="rect" href="#FMID_1127797872FM" alt="document" title="document" coords="192,58,259,80" /><area shape="rect" href="#FMID_1142262924FM" alt="https://cubes.readthedocs.io/en/v1.1/ind ..." title="https://cubes.readthedocs.io/en/v1.1/ind ..." coords="279,56,563,78" /><area shape="rect" href="#FMID_1233842615FM" alt="install cubes" title="install cubes" coords="0,33,102,55" /></map>
+
+<div class="node"><img src="cubes.html_files/hide.png" class="hideshow" alt="hide" onClick="toggle(&quot;N10007&quot;)" id="imgN10007" /><a id="FMID_808448899FM" /><div class="nodecontent">cubes</div><div class="content" id="N10007"><div class="node"><img src="cubes.html_files/leaf.png" class="hideshow" alt="leaf" /><a id="FMID_1233842615FM" /><div class="nodecontent">install cubes</div><div class="note-and-attributes"><span class="note">
+    <p>
+      pip3 install virtualenv
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      mk cubes
+    </p>
+    <p>
+      cd cubes
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      virtualenv --no-site-packages venv
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      source ./venv/bin/activate
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      pip install cubes
+    </p>
+    <p>
+      
+    </p>
+  </span></div></div><div class="node"><img src="cubes.html_files/hide.png" class="hideshow" alt="hide" onClick="toggle(&quot;N1000D&quot;)" id="imgN1000D" /><a id="FMID_649753054FM" /><div class="nodecontent">quick start</div><div class="note-and-attributes"><span class="note">
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#c586c0">from</font><font color="#d4d4d4"> sqlalchemy </font><font color="#c586c0">import</font><font color="#d4d4d4"> create_engine</font>
+      </div>
+      <div>
+        <font color="#c586c0">from</font><font color="#d4d4d4"> cubes.tutorial.sql </font><font color="#c586c0">import</font><font color="#d4d4d4"> create_table_from_csv</font>
+      </div>
+      <div>
+        <font color="#c586c0">from</font><font color="#d4d4d4"> cubes </font><font color="#c586c0">import</font><font color="#d4d4d4"> Workspace</font>
+      </div>
+      <br />
+      <br />
+      
+
+      <div>
+        <font color="#d4d4d4">engine = create_engine(</font><font color="#ce9178">'sqlite:///data.sqlite'</font><font color="#d4d4d4">)</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">create_table_from_csv(engine,</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">                      </font><font color="#ce9178">"IBRD_Balance_Sheet__FY2010.csv"</font><font color="#d4d4d4">,</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">                      </font><font color="#9cdcfe">table_name</font><font color="#d4d4d4">=</font><font color="#ce9178">"ibrd_balance"</font><font color="#d4d4d4">,</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">                      </font><font color="#9cdcfe">fields</font><font color="#d4d4d4">=[</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">                          (</font><font color="#ce9178">"category"</font><font color="#d4d4d4">, </font><font color="#ce9178">"string"</font><font color="#d4d4d4">),</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">                          (</font><font color="#ce9178">"category_label"</font><font color="#d4d4d4">, </font><font color="#ce9178">"string"</font><font color="#d4d4d4">),</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">                          (</font><font color="#ce9178">"subcategory"</font><font color="#d4d4d4">, </font><font color="#ce9178">"string"</font><font color="#d4d4d4">),</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">                          (</font><font color="#ce9178">"subcategory_label"</font><font color="#d4d4d4">, </font><font color="#ce9178">"string"</font><font color="#d4d4d4">),</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">                          (</font><font color="#ce9178">"line_item"</font><font color="#d4d4d4">, </font><font color="#ce9178">"string"</font><font color="#d4d4d4">),</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">                          (</font><font color="#ce9178">"year"</font><font color="#d4d4d4">, </font><font color="#ce9178">"integer"</font><font color="#d4d4d4">),</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">                          (</font><font color="#ce9178">"amount"</font><font color="#d4d4d4">, </font><font color="#ce9178">"integer"</font><font color="#d4d4d4">)],</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">                      </font><font color="#9cdcfe">create_id</font><font color="#d4d4d4">=</font><font color="#569cd6">True</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">                      )</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#d4d4d4">workspace = Workspace()</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">workspace.register_default_store(</font><font color="#ce9178">"sql"</font><font color="#d4d4d4">, </font><font color="#9cdcfe">url</font><font color="#d4d4d4">=</font><font color="#ce9178">"sqlite:///data.sqlite"</font><font color="#d4d4d4">)</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">workspace.import_model(</font><font color="#ce9178">"tutorial_model.json"</font><font color="#d4d4d4">)</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#d4d4d4">browser = workspace.browser(</font><font color="#ce9178">"ibrd_balance"</font><font color="#d4d4d4">)</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">result = browser.aggregate()</font>
+      </div>
+      <div>
+        <font color="#569cd6">print</font><font color="#d4d4d4">(result.summary[</font><font color="#ce9178">"record_count"</font><font color="#d4d4d4">], result.summary[</font><font color="#ce9178">"amount_sum"</font><font color="#d4d4d4">])</font>
+      </div>
+      <br />
+      <br />
+      
+
+      <div>
+        <font color="#d4d4d4">result = browser.aggregate(</font><font color="#9cdcfe">drilldown</font><font color="#d4d4d4">=[</font><font color="#ce9178">"year"</font><font color="#d4d4d4">])</font>
+      </div>
+      <div>
+        <font color="#c586c0">for</font><font color="#d4d4d4"> record </font><font color="#569cd6">in</font><font color="#d4d4d4"> result:</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">    </font><font color="#569cd6">print</font><font color="#d4d4d4">(record)</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#d4d4d4">result = browser.aggregate(</font><font color="#9cdcfe">drilldown</font><font color="#d4d4d4">=[</font><font color="#ce9178">"item"</font><font color="#d4d4d4">])</font>
+      </div>
+      <div>
+        <font color="#c586c0">for</font><font color="#d4d4d4"> record </font><font color="#569cd6">in</font><font color="#d4d4d4"> result:</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">    </font><font color="#569cd6">print</font><font color="#d4d4d4">(record)</font>
+      </div>
+      <br />
+    </div>
+  </span></div><div class="content" id="N1000D"><div class="node"><img src="cubes.html_files/hide.png" class="hideshow" alt="hide" onClick="toggle(&quot;N101F8&quot;)" id="imgN101F8" /><a id="FMID_1386337492FM" /><div class="nodecontent">example</div><div class="content" id="N101F8"><div class="node"><img src="cubes.html_files/leaf.png" class="hideshow" alt="leaf" /><a id="FMID_247462211FM" /><div class="nodecontent"><a href="https://github.com/lanwav/cubes/tree/master/examples/quickstart">https://github.com/lanwav/cubes/tree/master/examples/quickstart</a> <a href="https://github.com/lanwav/cubes/tree/master/examples/quickstart"><img src="cubes.html_files/ilink.png" alt="User Link" style="border-width:0" /></a></div></div></div></div></div></div><div class="node"><img src="cubes.html_files/hide.png" class="hideshow" alt="hide" onClick="toggle(&quot;N10207&quot;)" id="imgN10207" /><a id="FMID_1044692376FM" /><div class="nodecontent">souce code</div><div class="content" id="N10207"><div class="node"><img src="cubes.html_files/leaf.png" class="hideshow" alt="leaf" /><a id="FMID_352062722FM" /><div class="nodecontent"><a href="https://github.com/lanwav/cubes">https://github.com/lanwav/cubes</a> <a href="https://github.com/lanwav/cubes"><img src="cubes.html_files/ilink.png" alt="User Link" style="border-width:0" /></a></div></div></div></div><div class="node"><img src="cubes.html_files/hide.png" class="hideshow" alt="hide" onClick="toggle(&quot;N10216&quot;)" id="imgN10216" /><a id="FMID_1127797872FM" /><div class="nodecontent">document</div><div class="content" id="N10216"><div class="node"><img src="cubes.html_files/leaf.png" class="hideshow" alt="leaf" /><a id="FMID_1142262924FM" /><div class="nodecontent"><a href="https://cubes.readthedocs.io/en/v1.1/index.html">https://cubes.readthedocs.io/en/v1.1/index.html</a> <a href="https://cubes.readthedocs.io/en/v1.1/index.html"><img src="cubes.html_files/ilink.png" alt="User Link" style="border-width:0" /></a></div></div></div></div></div></div>
+</body></html>
