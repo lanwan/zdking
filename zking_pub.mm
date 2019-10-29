@@ -49,6 +49,7 @@
   </body>
 </html>
 </richcontent>
+<node CREATED="1572330118039" ID="ID_736506181" LINK="cubes.html" MODIFIED="1572330174185" TEXT="goto cubes mind"/>
 </node>
 <node CREATED="1572310210944" ID="ID_1825366737" MODIFIED="1572310233678" TEXT="superset">
 <richcontent TYPE="NOTE"><html>
