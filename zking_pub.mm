@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff0000" CREATED="1572081053375" ID="ID_324586553" MODIFIED="1572087380128" STYLE="bubble" TEXT="ZDKing Personal Site">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff0000" CREATED="1572081053375" ID="ID_324586553" MODIFIED="1572309987135" STYLE="bubble" TEXT="ZDKing Personal Site">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -30,6 +30,39 @@
 <node CREATED="1572082900185" ID="ID_1274045151" MODIFIED="1572082906762" TEXT="Deepleaning"/>
 <node CREATED="1572083121496" ID="ID_1541631340" MODIFIED="1572083168712" TEXT="Sample Database"/>
 </node>
+<node CREATED="1572310067411" ID="ID_519837595" MODIFIED="1572310075434" TEXT="OLAP">
+<node CREATED="1572310078203" ID="ID_810278045" LINK="cubes.mm" MODIFIED="1572329364865" TEXT="cubes">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="http://cubes.databrewery.org/">http://cubes.databrewery.org/ </a>
+    </p>
+    <p>
+      <a href="https://cubes.readthedocs.io/en/v1.1/introduction.html">https://cubes.readthedocs.io/en/v1.1/introduction.html</a>
+    </p>
+    <p style="line-height: 24px; margin-top: 0px; margin-right: 0px; margin-bottom: 24px; margin-left: 0px; font-size: 16px; color: rgb(64, 64, 64); font-family: Lato, proxima-nova, Helvetica Neue, Arial, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(252, 252, 252)">
+      &#23545;&#20110;&#24819;&#23398;&#20064;OLAP&#27010;&#24565;&#30340;&#65292;&#36825;&#20010;&#24211;&#20540;&#24471;&#30740;&#31350;&#65292;&#21487;&#20197;&#35753;&#20320;&#30475;&#21040;&#25968;&#25454;&#30340;&#26412;&#36136;&#65292;&#24182;&#33073;&#31163;&#33457;&#21736;&#30340;UI&#65292;&#30495;&#27491;&#20851;&#27880;&#25968;&#25454;&#26412;&#36523;&#30340;&#20215;&#20540;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1572310210944" ID="ID_1825366737" MODIFIED="1572310233678" TEXT="superset">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="http://superset.apache.org/">http://superset.apache.org/</a>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 </node>
 <node CREATED="1572083017899" ID="ID_1450008686" MODIFIED="1572092455934" TEXT="Programming">
 <node CREATED="1572083199994" ID="ID_601178110" MODIFIED="1572092455938" TEXT="Language">
@@ -39,6 +72,8 @@
 <node CREATED="1572095449840" ID="ID_580101920" MODIFIED="1572095453995" TEXT="pyzmq"/>
 <node CREATED="1572095463999" ID="ID_1724360212" MODIFIED="1572095468241" TEXT="pandas"/>
 <node CREATED="1572095471841" ID="ID_1177914584" MODIFIED="1572095481789" TEXT="numpy"/>
+<node CREATED="1572311508434" ID="ID_1897897779" MODIFIED="1572311510852" TEXT="virtualenv --no-site-packages venv"/>
+<node CREATED="1572311517557" ID="ID_1599553762" MODIFIED="1572311520183" TEXT="cubes"/>
 </node>
 </node>
 <node CREATED="1572083071359" ID="ID_1179983716" MODIFIED="1572083091243" TEXT="FreePascal"/>
@@ -52,6 +87,7 @@
 <node CREATED="1572083250657" ID="ID_281736592" MODIFIED="1572083266397" TEXT="FFMpeg"/>
 <node CREATED="1572083337976" ID="ID_125081083" MODIFIED="1572083806581" TEXT="VSCode"/>
 <node CREATED="1572083356214" ID="ID_1157037978" MODIFIED="1572083797397" TEXT="Lazarus(Delphi)"/>
+<node CREATED="1572310148155" ID="ID_1961036733" MODIFIED="1572310152362" TEXT="NGINX"/>
 </node>
 <node CREATED="1572083627033" ID="ID_929158994" MODIFIED="1572083631279" TEXT="Book"/>
 </node>
@@ -67,7 +103,7 @@
 </node>
 </node>
 <node CREATED="1572270697753" ID="ID_462640449" MODIFIED="1572270718252" TEXT="EMBA">
-<node CREATED="1572239198495" ID="ID_106188180" MODIFIED="1572239226655" TEXT="PDCA">
+<node CREATED="1572239198495" ID="ID_106188180" MODIFIED="1572271207995" TEXT="PDCA">
 <node CREATED="1572239227580" ID="ID_39333195" MODIFIED="1572240156256" TEXT="A">
 <arrowlink DESTINATION="ID_1644121512" ENDARROW="Default" ENDINCLINATION="241;0;" ID="Arrow_ID_631920578" STARTARROW="None" STARTINCLINATION="241;0;"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_39333195" ENDARROW="Default" ENDINCLINATION="89;0;" ID="Arrow_ID_1753132054" SOURCE="ID_107188913" STARTARROW="None" STARTINCLINATION="89;0;"/>
@@ -223,7 +259,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1572095784281" ID="ID_393752218" MODIFIED="1572095882828" POSITION="left" TEXT="Diary">
+<node CREATED="1572095784281" ID="ID_393752218" MODIFIED="1572271332789" POSITION="left" TEXT="Diary">
 <node CREATED="1572095885047" ID="ID_1789706351" MODIFIED="1572095893823" TEXT="2019">
 <node CREATED="1572095894919" ID="ID_871307802" MODIFIED="1572095900239" TEXT="10">
 <node CREATED="1572095901645" ID="ID_1291112032" MODIFIED="1572096641927" TEXT="26">
@@ -260,8 +296,19 @@
       2019&#24180;10&#26376;28&#26085;&#65292;&#27492;&#26102;&#27492;&#21051;&#25105;&#27491;&#22352;&#22312;&#23433;&#38745;&#30340;&#21150;&#20844;&#23460;&#37324;&#65292;&#26803;&#29702;&#24635;&#32467;&#27745;&#27700;&#21378;&#36816;&#33829;&#31649;&#25511;&#25351;&#26631;&#21450;&#20998;&#26512;&#26041;&#27861;&#12290;&#25105;&#35797;&#22270;&#20102;&#35299;&#20225;&#19994;&#36816;&#33829;&#31649;&#29702;&#30340;&#26412;&#36136;&#65292;&#20174;&#26412;&#36136;&#19978;&#21435;&#20998;&#26512;&#27745;&#27700;&#21378;&#36816;&#33829;&#31649;&#29702;&#20307;&#31995;&#65292;&#24182;&#26500;&#24314;&#26126;&#30830;&#30340;&#20998;&#26512;&#30446;&#26631;&#21644;&#37319;&#29992;&#34892;&#20043;&#26377;&#25928;&#30340;&#26041;&#27861;&#12290;&#20174;&#32593;&#32476;&#19978;&#25214;&#30340;&#30340;&#25105;&#35748;&#20026;&#26368;&#25509;&#36817;&#26412;&#36136;&#30340;&#23450;&#20041;&#8220;&#36816;&#33829;&#23601;&#26159;&#27934;&#23519;&#20135;&#21697;&#25152;&#22788;&#30340;&#19981;&#21516;&#38454;&#27573;&#21644;&#29992;&#25143;&#38656;&#27714;&#65292;&#36890;&#36807;&#25972;&#21512;&#36164;&#28304;&#25214;&#21040;&#26377;&#25928;&#30340;&#30446;&#26631;&#29992;&#25143;&#23454;&#29616;&#38454;&#27573;&#24615;&#19994;&#21153;&#30446;&#26631;&#65292;&#20174;&#32780;&#23454;&#29616;&#26368;&#32456;&#30340;&#21830;&#19994;&#20215;&#20540;&#12290;&#8221;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+</node>
+<node CREATED="1572309992224" ID="ID_1438503312" MODIFIED="1572310029288" TEXT="29">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      2019-10-29&#65292;&#23398;&#20064;BI&#24037;&#20855;
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
